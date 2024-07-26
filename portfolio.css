@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    color: azure;
+    background-image: url(https://images.unsplash.com/photo-1637989122130-41ef76e1f5e8?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: repeat;
+    background-size: 100vw;
+}
+html{
+    scroll-behavior: smooth;
+}
+.top{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    height: 100px;
+    margin-left: 130px;
+    position: relative;
+    justify-content: space-between;
+}
+#welcomeimg{
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    padding-top: 30px;
+    padding-right: 140px;
+    font-size: 20px;
+    max-width: 400px;
+}
+nav ul li{
+    padding-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+span{
+    color: rgb(255, 0, 89);
+}
+#welcome{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-left: 130px;
+    margin-top: 190px;
+}
+#name{
+    font-size: 40px;
+}
+#aboutme{
+    margin-left: 130px;
+    margin-top: 250px;
+    text-align: justify;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+#abtme{
+    padding-right: 100px;
+}
+#abtmeimg{
+    display: flex;
+}
+#quali{
+    margin-left: 130px;
+    margin-top: 120px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+#qu{
+    display: flex;
+    margin-left: 93px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+.title ul{
+    list-style-type: none;
+    padding-right: 10px;
+}
+.title{
+    padding-left: -80px;
+}
+#skills{
+    margin-left: 130px;
+    margin-top: 120px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+#sk{
+    display: flex;
+    margin-left: 93px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+.ski ul{
+    list-style-type: none;
+    padding-right: 60px;
+}
+.ski{
+    padding-left: -80px;
+}
+
+#contact{
+    margin-left: 130px;
+    margin-top: 120px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+#con{
+    display: flex;
+    margin-left: 130px;
+    font-family: 'Oswald',sans-serif;
+}
+#left{
+    font-size: 20px;
+}
+#right{
+    padding-left: 440px;
+    padding-top: 20px;
+}
+#box{
+    background-color: rgb(57, 54, 54);
+    color: white;
+    height: 200px;
+    width: 590px;
+    border-radius: 6px;
+    border-color: rgb(255, 10, 100);
+    text-align: center;
+    border-width: 3px;
+}
+#butto{
+    background-color: rgb(235, 36, 69);
+    padding: 9px 15px 9px 15px;
+    margin-left: 810px;
+    margin-top: 28px;
+    margin-bottom: 100px;
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Oswald",sans-serif;
+}
+i{
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
